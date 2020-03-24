@@ -1,0 +1,36 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2;
+}
+
+input {
+  min-width: 220px;
+  padding: 3px;
+}
+
+.searchButton {
+  padding: 8px 8px 8px 8px;
+  width: 35px;
+  height: 35px;
+  background-color: gray;
+  background-image: url("../../assets/search-24px.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 4px;
+  background-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
+.searchButton:hover {
+  background-color: lightblue;
+}
+
+.booksSection {
+  margin-top: 40px;
+}
